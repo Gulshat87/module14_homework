@@ -62,43 +62,43 @@ transformXml(xmlString);
 //Задание 2.
 
 // JSON
-const jsonString = `
-{
-	"list": [
-	 {
-	  "name": "Petr",
-	  "age": "20",
-	  "prof": "mechanic"
-	 },
-	 {
-	  "name": "Vova",
-	  "age": "60",
-	  "prof": "pilot"
-	 }
-	]
-   }
-   `;
+// const jsonString = `
+// {
+// 	"list": [
+// 	 {
+// 	  "name": "Petr",
+// 	  "age": "20",
+// 	  "prof": "mechanic"
+// 	 },
+// 	 {
+// 	  "name": "Vova",
+// 	  "age": "60",
+// 	  "prof": "pilot"
+// 	 }
+// 	]
+//    }
+//    `;
     
-	//Запись данных в  объект
-function transformJson(strJson) {
+// 	//Запись данных в  объект
+// function transformJson(strJson) {
 
-	//Получение данных
-	let data = JSON.parse(strJson);
+// 	//Получение данных
+// 	let data = JSON.parse(strJson);
 	
-    let list = data.list;
+//     let list = data.list;
 	
-	let result = {list: []};
-	let objList = new Object();
+// 	let result = {list: []};
+// 	let objList = new Object();
 	    
-	list.forEach(function(elem) {
-		objList = elem;
+// 	list.forEach(function(elem) {
+// 		objList = elem;
 
-        result.list.push(objList);
+//         result.list.push(objList);
 
-	});
-	console.log(result);
-}
-transformJson(jsonString); 
+// 	});
+// 	console.log(result);
+// }
+// transformJson(jsonString); 
 
 
 
