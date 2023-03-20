@@ -8,8 +8,6 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	
-
 }
 .input {
 	text-align: center;
@@ -22,7 +20,7 @@ img {
 .text-w {
 	height: 17px;
 }
-.height {
+.heigh {
 }
 .text-h {
 	height: 17px;
